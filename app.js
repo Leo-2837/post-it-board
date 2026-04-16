@@ -1,14 +1,11 @@
-
-firebase.initializeApp({
-  apiKey: "AIzaSyAFHs1FwONml9PKP6HU8CIXjOhi83neRro",
-  authDomain: "post-it-board-baeb0.firebaseapp.com",
-  projectId: "post-it-board-baeb0",
-  storageBucket: "post-it-board-baeb0.appspot.com",
-  messagingSenderId: "22399045969",
-  appId: "1:22399045969:web:0825b274adab2b8925c370"
-});
-
-const db = firebase.firestore();
+const firebaseConfig = {
+  apiKey: "AIzaSyC9FeX8VW_yCoqhrd5Og5ohXqusc7kjnJk",
+  authDomain: "post-it-board-for-friends.firebaseapp.com",
+  projectId: "post-it-board-for-friends",
+  storageBucket: "post-it-board-for-friends.firebasestorage.app",
+  messagingSenderId: "40564978592",
+  appId: "1:40564978592:web:02dbb1e3ccf53b9450eac5"
+};
 
 // ---------- BASIS ----------
 const app = document.getElementById("app");
